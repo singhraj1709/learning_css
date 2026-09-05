@@ -52,3 +52,54 @@ h3{
     color: blue;
     text-shadow: 5px 7px 5px gray;
 }
+.t_indent{
+    text-indent: 100px;
+}
+.word_space{
+    word-spacing: 50px;
+}
+.letter_space{
+    letter-spacing: 10px;
+}
+.line_height{
+    line-height: 25px;
+}
+.f_family1{
+    font-family: cursive;
+}
+.f_family2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.f_family3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.f_family4{
+    font-family: fantasy;
+}
+.f_weight{
+    font-weight: 900;
+    font-size: 40px;
+    font-style: italic;
+    font-variant: small-caps;
+}
+.b_shadow{
+    box-shadow: 6px 7px 8px red;
+    width: 400px;
+}
+.b1_shadow{
+    width: 400px;
+    box-shadow: 7px 8px 9px blue;
+}
+.d_shadow{
+    width: 500px;
+    filter: drop-shadow(6px 7px 8px red);
+}
+.b_property1{
+    width: 400px;
+    border: 15px dashed red;
+}
+.b_property2{
+    width: 450px;
+    border: 20px solid green;
+    border-radius: 50px;
+}
