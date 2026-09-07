@@ -1,0 +1,30 @@
+.flex-items{
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    height: 150px; 
+    margin-top: 10px;
+    color: white;
+    font-size: 50px;
+    border: 3px solid red;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* space-around,space-evenly,space-distributed */
+    justify-content: center;
+    list-style: none;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+}

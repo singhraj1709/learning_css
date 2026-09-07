@@ -1,0 +1,11 @@
+.bg_image_example{
+    background-color: black;
+    background-image: url("../images/car1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.bg_headings{
+    font-size: 60px;
+    color: blanchedalmond;
+}
