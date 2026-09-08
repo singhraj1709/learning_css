@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            position: relative;
+            animation: movingBox;
+            animation-duration: 5s;
+            animation-iteration-count: 3;
+            animation-delay: 2s;
+            animation-direction: alternate;
+
+        }
+        @keyframes movingBox{
+            0%{background-image: url(images/car1.jpg);}
+            25%{background-image: url(images/car2.jpg);}
+            50%{background-image: url(images/car3.jpg);}
+            75%{background-image: url(images/car4.jpg);}
+            100%{background-image: url(images/car5.jpg);}
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
